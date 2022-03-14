@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav li {
+    font-size:12pt;
+    display:block;
+    float: left;
+    height:90px;
+    width: 145px; /*new*/
+    text-align: center; /*new*/
+    transition: all 0.2s ease-in-out;
+}
+
+
+.nav .home {
+    background: #a3d39c;
+}
+.nav .about {
+    background: #7accc8;
+}
+.nav .projects {
+    background: #4aaaa5;
+}
+.nav .contact {
+    background: #35404f;
+}
+
+
+.nav li a {
+    font-family: FontAwesome;
+    color:#eee;
+    font-size:22pt;
+    text-decoration: none;
+    display: block;
+    padding:15px;
+}
+.nav li i {
+    color:#fff;
+    padding:0 10px;
+}
+.nav li b {
+    padding: 15px 0;
+    display: none;
+}
+.nav a:hover {
+    color: #fff;
+}
+.nav a:hover i {
+    display: none;
+}
+.nav a:hover b {
+    display: block;
+}
+
+
+
+</style>
+</head>
+<body>
+
+    <li class="home">
+        <a href="index.html"><i class="icon fa fa-home fa-2x"></i><b>Home</b></a>
+    </li>
+
+
+
+
+
+
+
+
+    <div class="nav">
+        <ul>
+            <li class="home">
+                <a href="index.html"><i class="icon fa fa-home fa-2x"></i><b>Home</b></a>
+            </li>
+            <li class="about">
+                <a href="about"><i class="icon fa fa-coffee fa-2x"></i><b>About</b></a>
+            </li>
+            <li class="projects">
+                <a href="#projects"><i class="icon fa fa-code fa-2x"></i><b>Projects</b></a>
+            </li>
+            <li class="contact">
+                <a href="#contact"><i class="icon fa fa-comment fa-2x"></i><b>Contact</b></a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>
